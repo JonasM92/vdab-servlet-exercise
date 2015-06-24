@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Exotic tea shop</title>
+        <style type="text/css">
+            body {
+                background: url("http://sd.keepcalm-o-matic.co.uk/i/keep-calm-and-drink-tea-1589.png");
+                background-size: 5rem;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            input, select {
+                display: block;
+                margin: 2rem;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Buy exotic teas</h1>
+        <p>Keep kalm, and drink tea</p>
+
+        <form action="shop" method="post">
+            <select name="product">
+                <option label="Royal blend">Royal blend</option>
+                <option label="Indian spice">Indian spice</option>
+                <option label="German gray">German gray</option>
+                <option label="Jamaican fun">Jamaican fun</option>
+            </select>
+
+            <input type="text" name="price" value="9.95"/>
+            <input type="number" name="quantity" value="1"/>
+            <input type="submit" value="Add to shopping basket"/>
+        </form>
+
+    </body>
+</html>

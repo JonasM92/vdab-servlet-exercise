@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 0.2rem solid black;
+    padding: 1rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
